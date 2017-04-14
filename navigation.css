@@ -1,0 +1,29 @@
+/************************
+General Styling
+************************/
+
+body {
+	background-color: lightblue;
+	margin: 0;
+}
+
+ul li {
+	display: inline-block;
+	background-color: lightblue;
+	color: darkgrey;
+}
+
+/************************
+Nav Styling
+************************/
+
+.navLink:hover {
+	background-color: #a3d8c9;
+	color: black;
+}
+
+.navLink:active {
+	padding: 0 5px;
+	font-size: 4em;
+	font-weight: bold;
+}
